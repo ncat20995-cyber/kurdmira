@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Hls from 'hls.js';
 import { Play, Search, ArrowLeft, Plus, Check, User } from 'lucide-react';
 
-const API_URL = 'http://10.0.2.2:4000'; 
+const API_URL = 'http://10.0.2.2:4000';
 
 const PROFILES = [
   { id: 'p1', name: 'Main', color: 'bg-red-600' },
@@ -105,7 +105,7 @@ export default function App() {
   if (!profile) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center p-6">
-        <h1 className="text-red-600 text-3xl font-extrabold tracking-widest mb-10">STREAMFLIX</h1>
+        <h1 className="text-red-600 text-3xl font-extrabold tracking-widest mb-10">KURDMIRA</h1>
         <p className="text-gray-300 text-lg mb-8">Who's watching?</p>
         <div className="flex gap-6">
           {PROFILES.map((p) => (
@@ -138,7 +138,7 @@ export default function App() {
   return (
     <div className="pb-16">
       <div className="fixed top-0 inset-x-0 z-30 bg-gradient-to-b from-black/90 to-transparent p-4 flex items-center justify-between">
-        <span className="text-red-600 font-black text-xl tracking-wider">STREAMFLIX</span>
+        <span className="text-red-600 font-black text-xl tracking-wider">KURDMIRA</span>
         <div className="flex items-center gap-3">
           <div className="flex items-center bg-black/70 border border-gray-700 rounded-full px-3 py-1">
             <Search size={16} className="text-gray-400 mr-2" />
@@ -197,4 +197,5 @@ export default function App() {
       </div>
     </div>
   );
-              }
+      }
+                  
