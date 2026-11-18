@@ -27,7 +27,7 @@ jobs:
           cd frontend
           npm install
           npm run build
-          npx @capacitor/cli init StreamFlix com.mystream.app --web-dir dist
+          npx @capacitor/cli init Kurdmira com.kurdmira.app --web-dir dist
           npx cap add android
           npx cap sync android
           cd android
