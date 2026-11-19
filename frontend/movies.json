@@ -1,0 +1,10 @@
+[
+  {
+    "id": "1",
+    "title": "My Movie",
+    "category": "Trending Now",
+    "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/800px-Big_buck_bunny_poster_big.jpg",
+    "videoUrl": "https://files.catbox.moe/nbr2by.mp4",
+    "description": "My first movie"
+  }
+]
