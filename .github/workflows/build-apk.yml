@@ -39,4 +39,3 @@ jobs:
           name: app-debug
           path: frontend/android/app/build/outputs/apk/debug/app-debug.apk
           
-
